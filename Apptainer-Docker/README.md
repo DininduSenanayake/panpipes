@@ -10,12 +10,13 @@ export APPTAINER_CACHEDIR="/well/dendrou/users/$USER/work/apptainer-cache"
 export APPTAINER_TMPDIR=${APPTAINER_CACHEDIR}
 ```
 
->Add those environment variables to your *~/.bashrc* for future use
-We recommend adding those environment variables to your *~/.bashrc*.
-
-
-echo 'export APPTAINER_CACHEDIR="/well/dendrou/users/$USER/work/apptainer-cache"' >> ~/.bashrc
-echo 'export APPTAINER_TMPDIR="/well/dendrou/users/$USER/work/apptainer-cache"' >> ~/.bashrc
+>**Add those environment variables to your *~/.bashrc* for future use**
+>
+>We recommend adding those environment variables to your *~/.bashrc*.
+>
+>
+>echo 'export APPTAINER_CACHEDIR="/well/dendrou/users/$USER/work/apptainer-cache"' >> ~/.bashrc
+>echo 'export APPTAINER_TMPDIR="/well/dendrou/users/$USER/work/apptainer-cache"' >> ~/.bashrc
 
 ## Pull pre-built docker container as apptainer
 
